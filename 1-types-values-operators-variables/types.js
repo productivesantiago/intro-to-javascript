@@ -76,7 +76,16 @@ ourTypes = { //This is a single line comment.
 
       
       There are a lot of other operators, so check out the documentation to find out what they are and what they do!
+      For example, you will need to use the arithmetic operators to pass some of the tests. Notice they weren't explained above, so you'll need to look them up. But since I'm nice, I won't make you scroll up for that link.
+      Here it is agian:
 
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Declarations
+
+      Remember, if you feel like you need more practice, codeacademy.com, khanacademy.org and freecodecamp.com all have free interactive instructional tutorials you can do from any computer as long as you remember your account info!
   */
-  add: function() {}
+
+  /*
+    Ok, so let's start working! If you haven't already, open specRunner.html in your browser. Notice all of the red?! Great! Follow the instructions in the readme to install the dependencies, and then start filling in the "blanks" blow to make the tests pass!
+  */
+  add: null 
 };
