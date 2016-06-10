@@ -3,9 +3,9 @@ describe('types', function() {
   // console.log(require);
   it('should exist', function() {
     // assert.deepEqual(types, undefined, 'expected undefined and got ' + types);
-    expect(typeof types).to.equal('object');
+    expect(typeof ourTypes).to.equal('object');
   });
   it('should have a method called add', function() {
-    expect(types.add).to.be.a('function');
+    expect(ourTypes.add).to.be.a('function');
   });
 });
