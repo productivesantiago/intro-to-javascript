@@ -87,5 +87,8 @@ ourTypes = { //This is a single line comment.
   /*
     Ok, so let's start working! If you haven't already, open specRunner.html in your browser. Notice all of the red?! Great! Follow the instructions in the readme to install the dependencies, and then start filling in the "blanks" blow to make the tests pass!
   */
-  add: null 
+  thisShouldBeUndefined: 0, //replace the values to make tests pass!
+
+  thisShouldBeNull: 'null'
+
 };
