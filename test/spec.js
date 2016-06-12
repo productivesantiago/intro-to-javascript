@@ -146,7 +146,7 @@ describe('types, values, operators and variables', function() {
     });
   });
 
-  describe('comparison and logical operators', function() {
+  describe('comparison operators', function() {
 
     it('should have a variable named firstResult which gets its value from finding if num1 is greater than num3', function() {
       expect(firstResult).to.equal(true);
@@ -175,6 +175,32 @@ describe('types, values, operators and variables', function() {
     // Talk with your partner, and make sure you understand why the above test passes.
     it('should have a varibale named fourthResult that gets its value from finding if num1 is less than or equal to numberAsString', function() {
       expect(fourthResult).to.equal(true);
+    });
+  });
+
+  describe('operator precedence', function() {
+
+    it('should have a variable that evaluates (10 * 10) == \'100\'', function() {
+      expect(a).to.equal(true);
+    });
+
+    it('should have a variable that evaluates 2 * (10 / 2) + 2', function() {
+      expect(b).to.equal(2 * (10 / 2) + 2);
+    });
+    it('should have a variable that evaluates 8 + 1 * 5 - 4 / 2', function() {
+      expect(c).to.equal(false);
+    });
+
+    it('should have a variable that evaluates \'true \' === true, ', function() {
+      expect(d).to.equal(false);
+    });
+
+    it('should have a variable that evaluates 1 == true', function() {
+      expect(e).to.equal(true);
+    });
+
+    it('should have a variable that evalauates 1 === true', function() {
+      expect(f).to.equal(false);
     });
   });
 

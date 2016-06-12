@@ -95,7 +95,7 @@ ourTypes = { //This is a single line comment.
 
   aBoolean: 88,
 
-  anotherBoolean: 'what\'s the differene between true and truthy?',
+  anotherBoolean: 'what\'s the difference between true and truthy?',
 
   aString: 0,
 
@@ -123,7 +123,38 @@ var foo;
 
 
 
+
 /*
-  Use this next section for 'comparison and logical operators'.
+  Use this next section for 'comparison operators'.
   Use the variables from the last section and follow the prompts below.
 */
+
+
+
+
+
+
+/*
+  Use this next section for operator precedence. 
+  Remember PEMDAS in algebra class? Javascript has something similar.
+  You can find a helpful chart at
+  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_Precedence
+*/
+// For this section, assign the variables the value that the comment would return.
+// Try entering the statement into the console to get the result.
+
+// The first one is done for you as an example.
+var a = true; // (10 * 10) == '100'
+
+var b; // 2 * (10 / 2) + 2;
+
+var c; // 8 + 1 * 5 - 4 / 2 <= 9;
+
+var d; // true === 'true'
+
+var e; // 1 == true
+
+var f; // 1 === true
+
+
+
