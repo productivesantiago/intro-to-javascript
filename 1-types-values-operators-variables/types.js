@@ -77,7 +77,9 @@ ourTypes = { //This is a single line comment.
       
       There are a lot of other operators, so check out the documentation to find out what they are and what they do!
       For example, you will need to use the arithmetic operators to pass some of the tests. Notice they weren't explained above, so you'll need to look them up. But since I'm nice, I won't make you scroll up for that link.
-      Here it is agian:
+      Here it is again:
+      
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators
 
       https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Grammar_and_types#Declarations
 
@@ -89,6 +91,39 @@ ourTypes = { //This is a single line comment.
   */
   thisShouldBeUndefined: 0, //replace the values to make tests pass!
 
-  thisShouldBeNull: 'null'
+  thisShouldBeNull: 'null',
 
+  aBoolean: 88,
+
+  anotherBoolean: 'what\'s the differene between true and truthy?',
+
+  aString: 0,
+
+  aNumber: '123'
 };
+/******************
+Now for the fun bit! There was some code to get you started on the last section.
+For this section, read the tests (either in the test/spec.js file, or right there in the browser). Figure out what the tests are looking for, and make them pass.
+This may seem like some form of cruel punishment, but have faith, this will help you learn! 
+TDD, or Test Driven Development is (or should be) the 
+standard way to write code. 
+You write tests (that all fail) showing the expected behavior of your code. Then you write code that makes the tests pass. 
+Writing tests is something that will be gone over later, for now just focus on understanding the tests. 
+I think you'll be surprised that you'll be able to 
+understand what we're looking for!
+******************/
+
+/*
+  Use the next section for 'variables and arithmetic operators.'
+  The first two tests pass. Discuss why with your partner.
+*/
+var foo;
+
+
+
+
+
+/*
+  Use this next section for 'comparison and logical operators'.
+  Use the variables from the last section and follow the prompts below.
+*/
