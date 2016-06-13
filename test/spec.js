@@ -213,7 +213,7 @@ describe('flow and conditionals', function() {
     it('should have a variable called flowAnswerA', function() {
       expect(flowAnswerA).to.not.equal(null);
     });
-    
+
     it('should have a variable flowAnswerA that evaluates flowC >= flowB', function() {
       expect(flowAnswerA).to.equal(false);
     });
@@ -284,8 +284,71 @@ describe('flow and conditionals', function() {
     })
   });
 
+  describe('logical operators', function() {
 
-  describe('switch', function() {
+    it('should have a variable named lOne', function() {
+      expect(lOne).to.not.equal(null);
+    });
+
+    it('lOne should have a value', function() {
+      expect(lOne).to.equal(true);
+    });
+
+    it('lAOne should be assigned true if lOne is not true, and false otherwise', function() {
+      expect(lAOne).to.equal(false);
+    });
+
+    it('should have a variable named lTwo', function() {
+      expect(lTwo).to.not.equal(null);
+    });
+
+    it('lTwo should get true if lOne or LAOne is true', function() {
+      expect(lTwo).to.equal(true);
+    });
+
+    it('should have a variable named lThree', function() {
+      expect(lThree).to.not.equal(null);
+    });
+
+    it('lThree should have a numerical value', function() {
+      expect(lThree).to.equal(100);
+    });
+
+    it('sholud have a variable called lATwo', function() {
+      expect(lATwo).to.not.equal(null);
+    });
+
+    it('lATwo should have a value', function() {
+      expect(lATwo).to.equal(false);
+    });
+
+    it('should have a variable named lFour', function() {
+      expect(lFour).to.not.equal(null);
+    });
+
+    it('lFour should have a value', function() {
+      expect(lFour).to.equal('true');
+    });
+
+    it('should have a variable named lFive', function() {
+      expect(lFive).to.not.equal(null);
+    });
+
+    it('lFive should have a value', function() {
+      expect(lFive).to.equal(10);
+    });
+
+    it('should have a variable named lSix', function() {
+      expect(lSix).to.not.equal(null);
+    });
+
+    it('lSix should have the appropriate value', function() {
+      expect(lSix).to.equal(252550);
+    });
+
+  });
+
+  describe('switch statements', function() {
 
   });
 });
