@@ -73,20 +73,53 @@ var flowL = 'javaScript';
 // Let see put that into action!
 // The first couple of tests are passing as an example.
 
-// create a variable called fAnswerA.
+// create a variable called flowAnswerA.
 var flowAnswerA;
-// if flowC is greater than or equal to flowB assign fAnswerA true. Otherwise asign fAnswerA false.
+// if flowC is greater than or equal to flowB assign flowAnswerA true. Otherwise asign fAnswerA false.
 if (flowC >= flowB) {
   flowAnswerA = true;
 } else {
   flowAnswerA = false;
 }
 
+// create a variable flowAnswerB
+
+// if flowB is strictly equal (the same value and type) to flowD assign flowAnswerB true.
 
 
+// create a variable flowAnswerC
+
+// if flowB equals (in a truthy kind of way) flowD assign flowAnswerC true
+
+// create a variable called flowAnswerD.
+
+// if flowE plus flowG is bigger than flowG plus flowF, assign flowAnswerD the value of flowG plus flowE. Otherwise assign it the value of flowG plus flowF.
+
+// create a variable called flowAnswerE.
+
+// if flowA is equal to flowE assign flowAnswerE false. Otherwise assign it true.
+
+// create a variable called flowAnswerF. 
+
+// assign flowAnswerF the value of flowE multiplied by flowF.
+
+// create a variable called flowAnswerG
+
+// flowAnswerG should hold the greater of flowAnswerF, and flowG.
+// if they have the same value, then flowAnswerG should have a value of true.
 
 
+// create a variable called flowAnswerH.
 
+// assign it the value of flowG * negative one.
+
+// create a varibale called flowAnswerI
+
+// if flowAnswerF is greater than flowAnswerG flowAnswerI gets true.
+// if flowAnswerG is greater than flowAnswerF flowAnswerI gets false.
+// Otherwise flowAnswerI gets 'woo hoo!'
+
+/****************************************************/
 
 /*
   Ok, so now that we're getting pretty comfortable with conditionals, let's introduce a couple of new operators; 
@@ -115,6 +148,9 @@ if (flowC >= flowB) {
 
 */
 
+
+
+/****************************************************/
 
 
 /*

@@ -210,20 +210,80 @@ describe('flow and conditionals', function() {
   var expect = chai.expect;
 
   describe('the example', function() {
-    expect(flowAnswerA).to.equal(true);
+    it('should have a variable called flowAnswerA', function() {
+      expect(flowAnswerA).to.not.equal(null);
+    });
+    
+    it('should have a variable flowAnswerA that evaluates flowC >= flowB', function() {
+      expect(flowAnswerA).to.equal(false);
+    });
   });
 
-  describe('if', function() {
+  describe('if, if else, and else', function() {
 
+    
+    it('should have a variable called that compares flowB strictly equal to flowC', function() {
+      expect(flowAnswerB).to.equal(undefined);
+    });
+
+    it('should have a variable called flowAnswerC', function() {
+      expect(flowAnswerC).to.not.equal(null);
+    });
+
+    it('flowAnswerC should should hold the result of comparing if flowB and flowC are equal', function() {
+      expect(flowAnswerC).to.equal(true);
+    })
+
+    it('should have varible called flowAnswerD', function() {
+      expect(flowAnswerD).to.not.equal(null);
+    });
+
+    it('flowAnswerD should hold the larger of flowE + flowG or flowG + flowF', function() {
+      expect(flowAnswerD).to.equal(110);
+    });
+
+    it('should have varible called flowAnswerE', function() {
+      expect(flowAnswerE).to.not.equal(null);
+    });
+
+    it('flowAnswerE should compare if flowA equals flowE', function() {
+      expect(flowAnswerE).to.equal(false);
+    });
+
+    it('should have varible called flowAnswerF', function() {
+      expect(flowAnswerF).to.not.equal(null);
+    });
+
+    it('flowAnswerF should hold the value of flowE * flowF', function() {
+      expect(flowAnswerF).to.equal(-100);
+    });
+
+    it('should have varible called flowAnswerG', function() {
+      expect(flowAnswerG).to.not.equal(null);
+    });
+
+    it('flowAnswerG should hold the greater of flowAnswerF and flowG', function() {
+      expect(flowAnswerG).to.equal(flowG);
+    });
+
+    it('should have varible called flowAnswerH', function() {
+      expect(flowAnswerH).to.not.equal(null);
+    });
+
+    it('flowAnswerH should hold the value of flowG times negative one', function() {
+      expect(flowAnswerH).to.equal(-100);
+    });
+
+
+    it('should have varible called flowAnswerI', function() {
+      expect(flowAnswerI).to.not.equal(null);
+    });
+
+    it('flowAnswerI should be true if flowAnswerF is greater than to flowAnswerG, false if flowAnswerG is greater than flowAnswerF, and a string that says "woo hoo!" otherwise', function() {
+      expect(flowAnswerI).to.equal(false);
+    })
   });
 
-  describe('if else', function() {
-
-  });
-
-  describe('if else if else', function() {
-
-  });
 
   describe('switch', function() {
 
