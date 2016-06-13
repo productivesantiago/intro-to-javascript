@@ -206,9 +206,29 @@ describe('types, values, operators and variables', function() {
 
 });
 
+describe('flow and conditionals', function() {
+  var expect = chai.expect;
 
+  describe('the example', function() {
+    expect(flowAnswerA).to.equal(true);
+  });
 
+  describe('if', function() {
 
+  });
+
+  describe('if else', function() {
+
+  });
+
+  describe('if else if else', function() {
+
+  });
+
+  describe('switch', function() {
+
+  });
+});
 
 
 

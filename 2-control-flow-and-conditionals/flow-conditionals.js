@@ -1,3 +1,17 @@
+// These are the varibales you will be using in this section. Rather than scrolling up to find their values, why don't you practice accessing them from the browser's console?
+var flowA = false;
+var flowB = true;
+var flowC = 0;
+var flowD = 1;
+var flowE = -10;
+var flowF = 10;
+var flowG = 100;
+var flowH = '';
+var flowI = 'howdy';
+var flowJ = 'javascript';
+var flowK = 0;
+var flowL = 'javaScript';
+
 /*
   From https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators#Expressions
 
@@ -59,7 +73,14 @@
 // Let see put that into action!
 // The first couple of tests are passing as an example.
 
-
+// create a variable called fAnswerA.
+var flowAnswerA;
+// if flowC is greater than or equal to flowB assign fAnswerA true. Otherwise asign fAnswerA false.
+if (flowC >= flowB) {
+  flowAnswerA = true;
+} else {
+  flowAnswerA = false;
+}
 
 
 
@@ -68,7 +89,7 @@
 
 
 /*
-  Ok, so now that we're getting pretty comfortable with conditionals, let's introduce a couple of new operators, 
+  Ok, so now that we're getting pretty comfortable with conditionals, let's introduce a couple of new operators; 
   the logical operators.
 
   https://developer.mozilla.org/en-US/search?q=logical+operators 
@@ -76,6 +97,22 @@
   && - and operator
   || - or operator
   !  - not operator
+
+  The && (and) operator checks two or more conditions to find if they are true.
+  If they all evaluate to true, the block of code will run.
+
+
+  The || (or) operator checks to see if either condition is true.
+  If either is true, the block of code will run.
+
+  The ! (not) operator has several uses (other uses for ! will come later). 
+  The first is exactly what you're thinking, it allows you to evaluate if something is not true.
+
+  Take another look at the section on operators at MDN, specifically the not operator.
+  Remember when we talked about truthy vs true, and falsy vs false in class?
+  Discuss it with your partner, and make sure you understand the difference.
+
+
 */
 
 
