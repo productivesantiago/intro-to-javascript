@@ -153,11 +153,11 @@ var foo;
 // Try entering the statement into the console to get the result.
 
 // The first one is done for you as an example.
-var a = true; // (10 * 10) == '100'
+var bar = true; // (10 * 10) == '100'
 
-var b; // 2 * (10 / 2) + 2;
+var bar = "moving"; // 2 * (10 / 2) + 2;
 
-var c; // 8 + 1 * 5 - 4 / 2 <= 9;
+var num1 = 10; // 8 + 1 * 5 - 4 / 2 <= 9;
 
 var d; // true === 'true'
 
